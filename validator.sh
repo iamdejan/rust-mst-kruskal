@@ -6,6 +6,11 @@ for ((i = 1; i <= 2; i++)); do
   if [[ $? -gt 0 ]]; then
     exit 1
   fi
+
+  rm -rf output${i}-actual.txt
+  if [[ $? -gt 0 ]]; then
+    exit 1
+  fi
 done
 
 exit 0

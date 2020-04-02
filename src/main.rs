@@ -58,7 +58,7 @@ fn is_same_set(parent: &mut Vec<i64>, x: i64, y: i64) -> bool {
 }
 
 fn kruskal(mut edges: Vec<Edge>, mut parent: Vec<i64>, number_of_vertices: i64) -> (i64, Vec<Edge>) {
-    edges.sort_by(|a, b| a.cost.cmp(&b.cost));
+    edges.sort_unstable_by(|a, b| a.cost.cmp(&b.cost));
     let mut total_cost: i64 = 0;
     let mut final_edges: Vec<Edge> = Vec::new();
     let mut merge_count: i64 = 0;
