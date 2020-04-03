@@ -10,7 +10,7 @@ This is a simple program to find cost of minimum spanning tree (MST) using Krusk
 Install Rust and Cargo using [this guide](https://www.rust-lang.org/learn/get-started).
 
 ## Running the program
-To run the program and use the sample maze, just run:
+To run the program, just run:
 1) `$ cargo run < input1.txt`; or
 2) `$ cargo run < input2.txt`.
 
