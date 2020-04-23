@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/iamdejan/rust-mst-kruskal.svg?branch=master)](https://travis-ci.org/iamdejan/rust-mst-kruskal)
 
-This is a simple program to find cost of minimum spanning tree (MST) using Kruskal algorithm. This repository contains code from [my LinkedIn article]().
+This is a simple program to find cost of minimum spanning tree (MST) using Kruskal algorithm. This repository contains code from [my LinkedIn article](https://www.linkedin.com/pulse/internet-everywhere-csse-giovanni-dejan/).
 
 ## Getting Started
 
